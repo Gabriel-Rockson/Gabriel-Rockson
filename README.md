@@ -1,10 +1,11 @@
 <h2 align="left">
-Hi there 👋, I'm Gabriel Rockson, a Full-Stack Python / React Software Developer 💻 and AWS Cloud Developer!
+Hi there 👋, I'm Gabriel Rockson, a Software Developer.
 </h2>
 
-I enjoy the entire process of building web apps from the backend to the frontend and being able to see and appreciate the entire software development process and how all the pieces come together to form a great software.
-
 ## 💼 My Skillsets and Tools
+
+[//]: # (https://shields.io/docs/logos)
+[//]: # (https://simpleicons.org/)
 
 #### Backend Development
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -74,9 +75,11 @@ I enjoy the entire process of building web apps from the backend to the frontend
 ## 📈 Stats 
 
 ### Github
-[![Gabriels's GitHub stats](https://github-readme-stats.vercel.app/api?username=rocksongabriel&show_icons=true&theme=radical)](https://github.com/rocksongabriel)
+[//]: # (https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rocksongabriel&hide=css&show_icons=true&theme=radical)](https://github.com/rocksongabriel)
+[![Gabriels's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gabriel-Rockson&show_icons=true&theme=radical)](https://github.com/Gabriel-Rockson)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gabriel-Rockson&hide=css&show_icons=true&theme=radical)](https://github.com/Gabriel-Rockson)
 
 ### Wakatime
 [![wakatime](https://wakatime.com/badge/user/b7bf4d25-9b24-4610-a436-b47f6fc047d1.svg)](https://wakatime.com/@b7bf4d25-9b24-4610-a436-b47f6fc047d1)
