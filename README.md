@@ -75,6 +75,8 @@ Hi there 👋, I'm Gabriel Rockson, a Software Developer.
 ## 📈 Stats 
 
 ### Github
+![](./profile-3d-contrib/profile-south-season-animate.svg)
+
 [//]: # (https://github.com/anuraghazra/github-readme-stats)
 
 [![Gabriels's GitHub stats](https://github-readme-stats.vercel.app/api?username=Gabriel-Rockson&show_icons=true&theme=radical)](https://github.com/Gabriel-Rockson)
