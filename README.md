@@ -23,9 +23,9 @@ Full-Stack Software Developer and AWS Cloud Engineer based in Ghana 🇬🇭. I 
 
 <div align="center">
   <a href="https://www.linkedin.com/in/gabrielrockson/">LinkedIn</a> •
-  <a href="https://twitter.com/GRocksonTech">Twitter</a> •
-  <a href="mailto:gabrielrockson99@gmail.com">Email</a> •
-  <a href="https://gabrielrockson.com">Website</a>
+  <a href="https://twitter.com/gabrielrockson_">Twitter</a> •
+  <a href="mailto:contact@gabrielrockson.com">Email</a> •
+  <a href="https://www.gabrielrockson.com">Website</a>
 </div>
 
 ## 📊 Activity
@@ -33,5 +33,6 @@ Full-Stack Software Developer and AWS Cloud Engineer based in Ghana 🇬🇭. I 
 [![wakatime](https://wakatime.com/badge/user/b7bf4d25-9b24-4610-a436-b47f6fc047d1.svg)](https://wakatime.com/@b7bf4d25-9b24-4610-a436-b47f6fc047d1)
 
 <picture>
-  <img src="/github-metrics.svg" alt="Metrics">
+  <img src="/core-github-metrics.svg" alt="Core Metrics">
+  <img src="/other-github-metrics.svg" alt="Other Metrics">
 </picture>
