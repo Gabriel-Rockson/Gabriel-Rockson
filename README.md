@@ -33,6 +33,5 @@ Full-Stack Software Developer and AWS Cloud Engineer based in Ghana 🇬🇭. I 
 [![wakatime](https://wakatime.com/badge/user/b7bf4d25-9b24-4610-a436-b47f6fc047d1.svg)](https://wakatime.com/@b7bf4d25-9b24-4610-a436-b47f6fc047d1)
 
 <picture>
-  <img src="/core-github-metrics.svg" alt="Core Metrics">
-  <img src="/other-github-metrics.svg" alt="Other Metrics">
+  <img src="/github-metrics.svg" alt="Core Metrics">
 </picture>
