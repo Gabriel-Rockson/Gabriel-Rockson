@@ -37,7 +37,7 @@ jobs:
 
           # IsoCalendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
           # Lines of code changed
           plugin_lines: yes
@@ -47,9 +47,9 @@ jobs:
           # WakaTime (if you use it)
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime_days: 7
+          plugin_wakatime_days: 365
           plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time, projects, languages
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: gabriel_rockson
 
@@ -57,18 +57,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization     # Show notable contributions in organizations
           plugin_notable_types: commit, pull_request
-
-          # GitHub Skyline 3D calendar
-          plugin_skyline: yes
-          plugin_skyline_year: current-year    # or specify like 2023
-          plugin_skyline_frames: 60            # Animation frames
-          plugin_skyline_quality: 0.5          # Quality
-
-          # Repository contributors
-          plugin_contributors: yes
-          plugin_contributors_head: master
-          plugin_contributors_ignored: bot
-          plugin_contributors_contributions: yes
 
           # Latest posts from your dev.to or medium
           plugin_posts: yes
