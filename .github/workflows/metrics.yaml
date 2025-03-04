@@ -1,9 +1,7 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+
 name: Core Metrics
 on:
-  # Schedule updates (every 6 hours)
   schedule: [{cron: "0 */6 * * *"}]
-  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
@@ -16,52 +14,117 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
           user: Gabriel-Rockson
           template: classic
-          base: activity, community
+          base: header, activity, community, repositories, metadata
           config_timezone: Africa/Accra
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
-          plugin_habits: yes
-          plugin_habits_charts_type: chartist
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+
+          # Languages Analysis
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
+          plugin_languages_threshold: 1%
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          plugin_languages_colors: github
+          plugin_languages_details: percentage
+
+          # Habits Plugin
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_from: 200
+
+          # IsoCalendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # Lines of code changed
           plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
+          plugin_lines_repositories_limit: 4
+
+          # Follow-up on issues and PRs
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          
+          # WakaTime (if you use it)
           plugin_wakatime: yes
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
-          plugin_wakatime_repositories_visibility: public
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, projects, languages
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: gabriel_rockson
+
+          # Additional recommended plugins:
+
+          # Achievements showcase
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_threshold: C      # Display all achievements (A, B, C)
+          plugin_achievements_secrets: yes      # Display secret achievements too
+
+          # Notable contributions
+          plugin_notable: yes
+          plugin_notable_from: organization     # Show notable contributions in organizations
+          plugin_notable_types: commit, pull_request
+
+          # GitHub Skyline 3D calendar
+          plugin_skyline: yes
+          plugin_skyline_year: current-year    # or specify like 2023
+          plugin_skyline_frames: 60            # Animation frames
+          plugin_skyline_quality: 0.5          # Quality
+
+          # Star history
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: chartist
+
+          # Repository contributors
+          plugin_contributors: yes
+          plugin_contributors_head: master
+          plugin_contributors_ignored: bot
+          plugin_contributors_contributions: yes
+
+          # Activity overview
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_visibility: all
+          plugin_activity_timestamps: yes
+
+          # Latest posts from your dev.to or medium
+          plugin_posts: yes
+          plugin_posts_source: dev.to    # or medium
+          plugin_posts_limit: 4
+          plugin_posts_user: your-username
+
+          # GitHub Sponsors
+          plugin_sponsors: yes
+          plugin_sponsors_sections: goal, about
+          
+          # Topics you frequently use
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: mastered
+          plugin_topics_sort: stars
+
+          # GitHub Projects
+          plugin_projects: yes
+          plugin_projects_limit: 4
+          plugin_projects_descriptions: yes
+
+          # Discussion metrics
+          plugin_discussions: yes
+          plugin_discussions_categories: yes
+          plugin_discussions_categories_limit: 8
+
+          # Coding habits analysis
+          plugin_code: yes
+          plugin_code_lines: 12
+          plugin_code_load: 100
+          plugin_code_visibility: public
+
+          # Repository traffic
+          plugin_traffic: yes
+
