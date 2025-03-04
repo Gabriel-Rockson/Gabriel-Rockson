@@ -29,7 +29,7 @@ jobs:
           # Options
           user: Gabriel-Rockson
           template: classic
-          base: header, activity, community, repositories
+          base: activity, community
           config_timezone: Africa/Accra
           plugin_followup: yes
           plugin_followup_archived: yes
@@ -65,9 +65,3 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: gabriel_rockson
-          plugin_reactions: yes
-          plugin_reactions_display: absolute
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_discussions: 100
-          plugin_reactions_limit_discussions_comments: 100
-          plugin_reactions_limit_issues: 100
