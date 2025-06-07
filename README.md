@@ -15,7 +15,7 @@ Full-Stack Software Developer and AWS Cloud Engineer based in Ghana 🇬🇭. I 
     "frontend_frameworks": ["React", "Next.js"],
     "cloud": ["AWS", "Docker", "Kubernetes"],
     "databases": ["PostgreSQL", "DynamoDB"],
-    "tools": ["Linux", "Neovim", "i3wm", "Ghostty"]
+    "tools": ["Linux", "Neovim", "i3wm", "Kitty", "Tmux"]
 }
 ```
 
