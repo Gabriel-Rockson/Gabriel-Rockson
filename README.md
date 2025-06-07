@@ -75,7 +75,6 @@ Having fun writing code & watching anime in-between. I need to touch grass, yeah
 ### 🌟 [ShallowDepth](https://github.com/Gabriel-Rockson/shallowdepth)
 A local-first tool that tracks your app usage and classifies it as deep or shallow work.
 - **Tech Stack:** Golang
-- **Features:** Key feature 1, Key feature 2, Key feature 3
 
 ---
 
