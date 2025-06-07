@@ -15,7 +15,7 @@
 
 ## 👨‍💻 About Me
 
-Have fun writing code & watching anime in-between. I need to touch grass, yeahhh I know.
+Having fun writing code & watching anime in-between. I need to touch grass, yeahhh I know.
 
 ---
 
