@@ -15,7 +15,7 @@
 
 ## 👨‍💻 About Me
 
-Having fun writing code & watching anime in-between. I need to touch grass, yeahhh I know.
+Having fun writing code & watching anime in-between. I need to touch grass, yeahhh I know. my favorite sports is definitely Volley Ball. If I could be any anime character in the universe, it'll definitely be Gabimaru.
 
 ---
 
